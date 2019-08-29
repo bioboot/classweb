@@ -1,0 +1,7 @@
+@import "pro/dark-mode";
+
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    @include darkmode();
+  }
+}

@@ -1,0 +1,8 @@
+{% if site.hydejack.dark_mode.dynamic %}
+  <script>!function(w, d) {
+    if ('matchMedia' in w && w.matchMedia('(prefers-color-scheme: light)').matches) return;
+    var h = new Date().getHours();
+    var m = h <= {{ site.hydejack.dark_mode.sunrise | default:"6" }} || h >= {{ site.hydejack.dark_mode.sunset | default:"18" }} ? 'add' : 'remove';
+    d.body.classList[m]('dark-mode');
+  }(window, document);</script>
+{% endif %}
