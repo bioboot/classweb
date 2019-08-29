@@ -18,15 +18,23 @@
 
     <div class="sidebar-sticky">
       <div class="sidebar-about">
+
+        <img src="{{ '/' | relative_url }}assets/img/UCSanDiegoLogo-White.png" alt="UCSD Icon" width="225" height="76">
+
+<!--
         {% if site.logo %}
           <a class="no-hover" href="{{ '/' | relative_url }}" tabindex="-1">
             <img src="{{ site.logo | relative_url }}" class="avatar" alt="{{ site.short_title | default:site.title }}" data-ignore />
           </a>
         {% endif %}
+-->
+
         <h2 class="h1"><a href="{{ '/' | relative_url }}">{{ site.short_title | default:site.title }}</a></h2>
+        
         {% assign text = site.tagline | default:site.description %}
         {% if text %}
-          <p class="{% if text.size > 100 %}fine{% endif %}">
+          <!--<p class="{% if text.size > 100 %}fine{% endif %}">-->
+          <p style="font-size: .97em">
             {{ text | markdownify | replace:'<p>','' | replace:'</p>','' }}
           </p>
         {% endif %}
