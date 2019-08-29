@@ -7,6 +7,19 @@ selected_projects:
 more_projects: projects.md
 ---
 
+
+**Course Director**  
+   : [Prof. Barry J. Grant](http://thegrantlab.org/) (Email: <bjgrant@ucsd.edu>)  
+
+**Instructional Assistant**  
+   : Katherine Lee (Email: <k7lee@ucsd.edu>)  
+
+**Course Syllabus**  
+   : [Fall 2019 (PDF)](https://bioboot.github.io/bggn213_F19/class-material/BGGN213_F19_syllabus.pdf){:.no-push-state}
+{:.message}
+
+
+
 ## Overview
 Bioinformatics - the application of computational and analytical methods to biological problems - is a rapidly maturing field that is driving the collection, analysis, and interpretation of the avalanche of data in modern life sciences and medical research.  
 
@@ -61,9 +74,9 @@ Please help us improve this course by completing by completing these surveys bef
 ## Acknowledgments:
 In addition to working on personal laptops we will also be using remote supercomputing resources for analyzing bioinformatics data at scale. Our use of these resources is kindly supported by [NSF/XSEDE](https://www.xsede.org/) grant allocation TG-BIO170077.  
 
-[![xsede]({{ site.baseurl }}/jetstream/images/xsede.png)](https://jetstream-cloud.org/){:.no-push-state}  
+[![xsede]({{ site.baseurl }}/assets/img/xsede.png)](https://jetstream-cloud.org/){:.no-push-state}  
 
 To further support learning data analysis with the R environment we gratefully acknowledge support from [DataCamp](https://www.datacamp.com/). DataCamp are providing our enrolled students with access to over 300 hours of data science videos and interactive coding challenges aimed at strengthening their data science skills.  
 
-[![datacamp]({{ site.baseurl }}/jetstream/images/DataCamp.png)](https://www.datacamp.com/groups/foundations-of-bioinformatics-bggn-213){:.no-push-state}  
+[![datacamp]({{ site.baseurl }}/assets/img/DataCamp.png)](https://www.datacamp.com/groups/foundations-of-bioinformatics-bggn-213){:.no-push-state}  
 
