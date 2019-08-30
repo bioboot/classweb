@@ -34,6 +34,9 @@ layout: base
     {% assign content = content | replace:"<!--author-->", author_x %}
   {% endif %}
 
+<!-- Added by Barry as the authors data does not play nice in ver8 -->
+  <img src="{{ site.logo | relative_url }}" class="avatar" alt="{{ site.short_title | default:site.title }}" data-ignore />
+
   <header>
     <h1 class="page-title">{{ page.title }}</h1>
     {% include components/message.html text=page.description hide=page.hide_description %}
